@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/ejercicio1.css">
+    <title>Convertir</title>
+</head>
+<body>
+    <h1> conversor de celsius a fareinht</h1>
+    <form>
+        <label for="celsius">Temperatura en celsius:</label>
+        <input type="number" id="celsius" required>
+        <button type="submit">Convertir</button>
+    </form>
+    <br>
+    <br>
+
+    <h1>Contador de Palabras</h1>
+    <textarea id="parrafo" rows="5" cols="50" placeholder="Escribe tu párrafo aquí..."></textarea><br>
+    <button id="contarBtn">Contar Palabras</button>
+    <p id="resultado"></p> 
+
+    <h1>Calculadora de Edad</h1>
+    <label for="anioNacimiento">Ingresa tu año de nacimiento:</label>
+    <input type="number" id="anioNacimiento" placeholder="Año de nacimiento" min="1900" max="2024"><br>
+    <button id="calcularBtn">Calcular Edad</button>
+
+    <h1>Conversor de Moneda</h1>
+    <label for="montoDolares">Ingresa el monto en dólares:</label>
+    <input type="number" id="montoDolares" placeholder="Monto en USD" step="0.01"><br>
+
+    <label for="moneda">Selecciona la moneda a convertir:</label>
+    <select id="moneda">
+        <option value="euros">Euros</option>
+        <option value="pesos">Pesos</option>
+    </select><br>
+
+    <button id="convertirBtn">Convertir</button>
+
+    <h2 id="resultado"></h2>
+
+    <h1>Convertir Texto a Mayúsculas o Minúsculas</h1>
+    <textarea id="texto" placeholder="Escribe tu texto aquí..."></textarea><br>
+    <button onclick="convertirAMayusculas()">Convertir a Mayúsculas</button>
+    <button onclick="convertirAMinusculas()">Convertir a Minúsculas</button>
+
+
+    <script src="/JS/ejercicio1.js"></script>
+</body>
+</html>
